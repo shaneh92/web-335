@@ -1,0 +1,22 @@
+{
+  "term": "spring",
+  "gpa": 3.5,
+  "startDate": "01/07/2023",
+  "endDate": "05/25/2023",
+  "course": [
+    {
+      "course": "JavaScript II",
+      "description": "This course you will learn about Advanced JavaScript coding",
+      "instructor": "Prof Krasso",
+      "score": 100,
+      "letterGrade": "A+"
+    },
+    {
+      "course": "Intro to NoSQL",
+      "description": "This course is an introduction to creating databases",
+      "instructor": "Prof Krasso",
+      "score": 100,
+      "letterGrade": "A+"
+    }
+  ]
+}

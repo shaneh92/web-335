@@ -1,0 +1,14 @@
+{
+  "lineitems": {
+    "_id": "1156",
+    "productName": "Coffee Beans",
+    "price": 3.99,
+    "qty": 2,
+    "invoice": {
+      "_id": "5678",
+      "createDate": "03/21/2023",
+      "shipDate": "03/22/2023",
+      "subtotal": 22.89
+    }
+  }
+}

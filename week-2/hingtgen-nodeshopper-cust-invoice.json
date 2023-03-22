@@ -1,0 +1,21 @@
+{
+  "_id": "1234",
+  "firstName": "Shane",
+  "lastName": "Hingtgen",
+  "dateOfBirth": "1992",
+  "username": "shaneh92",
+  "invoices": [
+    {
+      "_id": "5678",
+      "createDate": "03/21/2023",
+      "shipDate": "03/22/2023",
+      "subtotal": 22.89
+    },
+    {
+      "_id": "9110",
+      "createDate": "03/21/2023",
+      "shipDate": "03/22/2023",
+      "subtotal": 25.89
+    }
+  ]
+}

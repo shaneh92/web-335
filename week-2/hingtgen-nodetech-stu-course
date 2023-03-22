@@ -1,0 +1,21 @@
+  {
+    "studentId": "1234",
+    "firstName": "Shane",
+    "lastName": "Hingtgen",
+    "course": [
+      {
+        "course": "JavaScript II",
+        "description": "This course you will learn about Advanced JavaScript coding",
+        "instructor": "Prof Krasso",
+        "score": 100,
+        "letterGrade": "A+"
+      },
+      {
+        "course": "Intro to NoSQL",
+        "description": "This course is an introduction to creating databases",
+        "instructor": "Prof Krasso",
+        "score": 100,
+        "letterGrade": "A+"
+      }
+    ]
+  }
