@@ -1,0 +1,24 @@
+[
+  {
+    "user": "shane",
+    "role": [
+      {
+        "role": "student"
+      },
+      {
+        "role": "developer"
+      }
+    ]
+  },
+  {
+    "role": "developer",
+    "permission": [
+      {
+        "permission": "security admin"
+      },
+      {
+        "permission": "database admin"
+      }
+    ]
+  }
+]
