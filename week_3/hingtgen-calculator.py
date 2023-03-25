@@ -10,6 +10,8 @@
 #   Bellevue University https://bellevue.mediaspace.kaltura.com/media/Function+Returns/1_3w0ut032
 #   Web 335 Exercise 3
 #   If Else https://www.programiz.com/python-programming/if-elif-else
+#   W3 Schools https://www.w3schools.com/python/python_strings.asp
+#   Python for Beginners https://www.pythonforbeginners.com/concatenation/string-concatenation-and-formatting-in-python
 # =================================================================================================================
 # add function with two parameters
 def add(x, y):
