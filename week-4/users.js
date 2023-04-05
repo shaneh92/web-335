@@ -1,0 +1,90 @@
+/**
+	Title: users.js
+    Author: Professor Krasso
+    Modified By: Shane Hingtgen
+    Date: 4/4/23
+    Description: MongoDB Shell Scripts for the users collection.
+    Work Cited:
+    Web 335 Assign_4
+    Web 335 mongosh guide
+    MongoDB https://www.mongodb.com/docs/manual/core/index-single/
+    MongoDB https://www.mongodb.com/docs/mongodb-shell/write-scripts/
+ */
+
+/**
+ * User document clean-up.
+ */
+db.users.deleteOne({ email: "jbach@me.com" });
+db.users.deleteOne({ email: "lbeethoven@me.com" });
+db.users.deleteOne({ email: "wmozart@me.com" });
+db.users.deleteOne({ email: "jbrahms@me.com" });
+db.users.deleteOne({ email: "rwagner@me.com" });
+db.users.deleteOne({ email: "cdebussy@me.com" });
+
+/**
+ * Create six User documents.
+ */
+bach = {
+  firstName: "Johann",
+  lastName: "Bach",
+  employeeId: "1007",
+  email: "jbach@me.com",
+  dateCreated: new Date(),
+};
+
+ludwig = {
+  firstName: "Ludwig",
+  lastName: "Beethoven",
+  employeeId: "1008",
+  email: "lbeethoven@me.com",
+  dateCreated: new Date(),
+};
+
+mozart = {
+  firstName: "Wolfgang",
+  lastName: "Mozart",
+  employeeId: "1009",
+  email: "wmozart@me.com",
+  dateCreated: new Date(),
+};
+
+brahms = {
+  firstName: "Johannes",
+  lastName: "Brahms",
+  employeeId: "1010",
+  email: "jbrahms@me.com",
+  dateCreated: new Date(),
+};
+
+wagner = {
+  firstName: "Richard",
+  lastName: "Wagner",
+  employeeId: "1011",
+  email: "rwagner@me.com",
+  dateCreated: new Date(),
+};
+
+debussy = {
+  firstName: "Claude",
+  lastName: "Debussy",
+  employeeId: "1012",
+  email: "cdebussy@me.com",
+  dateCreated: new Date(),
+};
+
+/**
+ * Insert the newly created user documents.
+ */
+db.users.insertOne(bach);
+db.users.insertOne(ludwig);
+db.users.insertOne(mozart);
+db.users.insertOne(brahms);
+db.users.insertOne(wagner);
+db.users.insertOne(debussy);
+
+// find specific user documents
+db.users.find(); //finds all in the document
+db.users.find({ email: "jbach@me.com" }); //finds that specific email
+db.users.find({ lastName: "Mozart" }); //finds that specific last name
+db.users.find({ firstName: "Richard" }); //finds that specific first name
+db.users.find({ employeeId: "1010" }); //finds that specific employee id
