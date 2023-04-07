@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "1234",
+    "firstName": "Shane",
+    "lastName": "Hingtgen",
+    "dateOfBirth": "1992",
+    "username": "shaneh92",
+    "invoices": [
+      {
+        "_id": "5678",
+        "createDate": "03/21/2023",
+        "shipDate": "03/22/2023",
+        "subtotal": "17.96",
+        "lineItems": [
+          {
+            "_id": "1156",
+            "productName": "Coffee Beans",
+            "price": "3.99",
+            "qty": "2"
+          },
+          {
+            "_id": "1245",
+            "productName": "Milk",
+            "price": "4.99",
+            "qty": "2"
+          }
+        ]
+      },
+      {
+        "_id": "9110",
+        "createDate": "03/21/2023",
+        "shipDate": "03/22/2023",
+        "subtotal": "24.98",
+        "lineItems": [
+          {
+            "_id": "1897",
+            "productName": "Frozen Pizza",
+            "price": "5.99",
+            "qty": "1"
+          },
+          {
+            "_id": "1987",
+            "productName": "Ribeye",
+            "price": "18.99",
+            "qty": "1"
+          }
+        ]
+      }
+    ]
+  }
+]

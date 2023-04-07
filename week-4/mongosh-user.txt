@@ -1,0 +1,1 @@
+mongosh "mongodb+srv://bellevueuniversity.ut5xprd.mongodb.net/web335DB" --apiVersion 1 --username web335_user
