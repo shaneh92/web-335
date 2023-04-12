@@ -1,5 +1,5 @@
 # =================================================================================================================
-# ; Title: Exercise 5.3 - Python
+# ; Title: Exercise 5.3 - Python Conditionals, Lists, and Loops
 # ; Author: Shane Hingtgen
 # ; Bellevue University
 # ; Date: 04/11/2023
