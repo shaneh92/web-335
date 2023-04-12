@@ -1,49 +1,22 @@
 [
   {
     "publisher_name": "Picador",
-    "publisher_code": 12345,
+    "publisher_code": "12345",
     "publisher_address": "16365 James Madison Highway Gordonsville, VA 22942",
-    "author": [
-      {
-        "author_last_name": "Punke",
-        "author_first_name": "Michael",
-        "author_phone": 1234567890,
-        "author_email": "michaelpunke@email.com"
-      },
-      {
-        "author_last_name": "Tolkien",
-        "author_first_name": "J.R.R.",
-        "author_phone": 78910111213,
-        "author_email": "tolkien@email.com"
-      }
-    ]
-  },
-  {
-    "author_last_name": "Tolkien",
-    "author_first_name": "J.R.R.",
-    "author_phone": 78910111213,
-    "author_email": "tolkien@email.com",
     "books": [
       {
-        "book_isbn": 9780544003415,
+        "book_isbn": "9780544003415",
         "book_name": "The Lord of the Rings",
-        "book_price": 24.99
-      },
-      {
-        "book_isbn": 054792822,
-        "book_name": "The Hobbit",
-        "book_price": 20.4
+        "book_price": "24.99",
+        "authors": [
+          {
+            "author_last_name": "Tolkien",
+            "author_first_name": "J.R.R.",
+            "author_phone": "78910111213",
+            "author_email": "tolkien@email.com"
+          }
+        ]
       }
     ]
-  },
-  {
-    "book_isbn": 9780544003415,
-    "book_name": "The Lord of the Rings",
-    "book_price": 24.99,
-    "publisher": {
-      "publisher_name": "William Morrow",
-      "publisher_code": 56789,
-      "publisher_address": "123 st Manhattan, New York 10451"
-    }
   }
 ]

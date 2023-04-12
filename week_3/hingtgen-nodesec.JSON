@@ -1,23 +1,29 @@
 [
   {
-    "user": "shane",
+    "firstName": "Shane",
+    "lastName": "Hingtgen",
     "role": [
       {
-        "role": "student"
+        "text": "student",
+        "permission": [
+          {
+            "text": "student access"
+          },
+          {
+            "text": "student database access"
+          }
+        ]
       },
       {
-        "role": "developer"
-      }
-    ]
-  },
-  {
-    "role": "developer",
-    "permission": [
-      {
-        "permission": "security admin"
-      },
-      {
-        "permission": "database admin"
+        "text": "developer",
+        "permission": [
+          {
+            "text": "security admin"
+          },
+          {
+            "text": "database admin"
+          }
+        ]
       }
     ]
   }
