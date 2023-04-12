@@ -82,9 +82,4 @@ db.users.insertOne(brahms);
 db.users.insertOne(wagner);
 db.users.insertOne(debussy);
 
-// find specific user documents
-db.users.find(); //finds all in the document
-db.users.find({ email: "jbach@me.com" }); //finds that specific email
-db.users.find({ lastName: "Mozart" }); //finds that specific last name
-db.users.find({ firstName: "Richard" }); //finds that specific first name
-db.users.find({ employeeId: "1010" }); //finds that specific employee id
+
